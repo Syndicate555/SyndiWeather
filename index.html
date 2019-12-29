@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div>
+        <h1 style="color:azure; text-align: center;"> SyndiWeather</h1>
+    </div>
+    <div class="location">
+        <h2 class="location-timezone" style="color:azure">TimeZone</h2>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+
+    <div class="temperature">
+        <div class="degree-section">
+            <h3 class="temperature-degree" style="color:azure">34</h3>
+            <span style="color:azure">F</span>
+        </div>
+        <div class="Details" style="color:azure">
+            <br>
+            <h7>DewPoint: </h7>
+            <h7 id="Dewpoint">--</h7>
+            <br>
+            <h7>Humidity: </h7>
+            <h7 id="Humidity">--</h7>
+            <br>
+            <h7>Pressure: </h7>
+            <h7 id="Pressure">--</h7>
+            <br>
+            <h7>Windspeed: </h7>
+            <h7 id="Windspeed">--</h7>
+        </div>
+    </div>
+
+    <div class="Information" style="color:azure; text-align: center;">
+        <h3>Extra Information</h3>
+    </div>
+
+
+
+
+
+
+
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
